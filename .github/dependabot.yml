@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /function-maven-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /functions-framework-api
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /invoker/conformance
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /invoker/core
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /invoker
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /invoker/testfunction
+    schedule:
+      interval: daily
